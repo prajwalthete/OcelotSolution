@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API gateway", "API gateway", "{75165F8B-4ACD-4978-81BA-B624C4DCE05B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Article", "Article", "{DBEFAEC6-65E5-4AA3-8AEC-D0685B90742F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Writer", "Writer", "{C4383CDC-60F7-4744-85F7-928EB5E5C93C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Article.Api", "Article.Api\Article.Api.csproj", "{2EB02A35-ACD9-48A7-8744-A73F8D3684F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Writer.Api", "Writer.Api\Writer.Api.csproj", "{8E15C573-3804-41BD-9C1F-90D5ABEA39A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotApiGateway", "OcelotApiGateway\OcelotApiGateway.csproj", "{916EE9B1-528E-4CCC-A2FF-C56DE225A157}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EB02A35-ACD9-48A7-8744-A73F8D3684F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB02A35-ACD9-48A7-8744-A73F8D3684F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB02A35-ACD9-48A7-8744-A73F8D3684F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB02A35-ACD9-48A7-8744-A73F8D3684F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E15C573-3804-41BD-9C1F-90D5ABEA39A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E15C573-3804-41BD-9C1F-90D5ABEA39A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E15C573-3804-41BD-9C1F-90D5ABEA39A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E15C573-3804-41BD-9C1F-90D5ABEA39A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{916EE9B1-528E-4CCC-A2FF-C56DE225A157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{916EE9B1-528E-4CCC-A2FF-C56DE225A157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{916EE9B1-528E-4CCC-A2FF-C56DE225A157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{916EE9B1-528E-4CCC-A2FF-C56DE225A157}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2EB02A35-ACD9-48A7-8744-A73F8D3684F8} = {DBEFAEC6-65E5-4AA3-8AEC-D0685B90742F}
+		{8E15C573-3804-41BD-9C1F-90D5ABEA39A1} = {C4383CDC-60F7-4744-85F7-928EB5E5C93C}
+		{916EE9B1-528E-4CCC-A2FF-C56DE225A157} = {75165F8B-4ACD-4978-81BA-B624C4DCE05B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AAAC8C4-1DC4-462C-BB9B-28B78D4ECD05}
+	EndGlobalSection
+EndGlobal
